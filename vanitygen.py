@@ -26,8 +26,8 @@ import random
 import multiprocessing
 
 
-def address_search(pipeout, search_for='12o'):
-    privkey = random.randrange(2**256)
+def address_search(pipeout, search_for='16jY7q'):
+    privkey = random.randrange(2**64)
     address = ''
     count = 0
     start = timeit.default_timer()
